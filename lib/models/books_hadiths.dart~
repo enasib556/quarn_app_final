@@ -1,0 +1,3 @@
+class BooksHadiths {
+  final String name;
+}

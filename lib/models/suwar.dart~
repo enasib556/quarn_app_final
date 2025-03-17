@@ -1,0 +1,7 @@
+class Suwar{
+  final String name;
+  final int number;
+  final int numberOfAyahs;
+
+  Suwar({required this.name, required this.number, required this.numberOfAyahs});
+}

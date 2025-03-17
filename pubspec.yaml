@@ -1,0 +1,44 @@
+name: quarn_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  smooth_page_indicator: ^1.2.0+3
+  dio: ^5.8.0+1
+  flutter_bloc: ^9.0.0
+  audioplayers: ^6.2.0
+  google_fonts:
+  pinput: ^5.0.1
+  curved_navigation_bar: ^1.0.6
+  flutter_svg: ^2.0.17
+  video_player: ^2.5.0
+  flutter_cached_pdfview: ^0.4.3
+  flutter_launcher_icons: ^0.13.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/quarn_icon.png"
+  adaptive_icon_background: "#ffffff"
+  adaptive_icon_foreground: "assets/icons/quarn_icon.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
